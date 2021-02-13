@@ -157,6 +157,13 @@ footer {
     background-color: lightsteelblue;
 }
 
+.explanation {
+    margin-top: 1rem;
+}
+.explanation > a {
+    margin: 0 0 0 4px;
+}
+
 ._hidden {
     display: none;
 }
