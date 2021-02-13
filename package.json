@@ -1,0 +1,14 @@
+{
+  "name": "raven_example",
+  "version": "0.1.0",
+  "description": "An example page for Raven tool.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dvo/raven": "^3.0.0"
+  }
+}

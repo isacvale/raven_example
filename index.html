@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raven Example</title>
+    <link href="./main.css" rel="stylesheet">
+    <script src="./store.js" type="module"></script>
+    <script src="./main.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <h1>
+            <span class="charName">Doe</span>
+            <span class="charEpithet">the Average</span>
+        </h1>
+    </header>
+    <section class='sheet'>
+        <label class="charNameLabel">
+            Name <input type="text" value="Doe" placeholder="Max. 10 char">
+        </label>
+        <section class="Attributes">
+            <label>
+                Strength
+                <input
+                    class="attr strength"
+                    type="number"
+                    min="0"
+                    max="10"
+                    value="2"
+                >
+            </label>
+            <label>
+                Dexterity
+                <input
+                    class="attr dexterity"
+                    type="number"
+                    min="0"
+                    max="10"
+                    value="2"
+                >
+            </label>
+            <label>
+                Stamina
+                <input
+                    class="attr stamina"
+                    type="number"
+                    min="0"
+                    max="10"
+                    value="2"
+                >
+            </label>
+            <label>
+                Intelligence
+                <input
+                    class="attr intelligence"
+                    type="number"
+                    min="0"
+                    max="10"
+                    value="2"
+                >
+            </label>
+            <label>
+                Wisdom
+                <input
+                    class="attr wisdom"
+                    type="number"
+                    min="0"
+                    max="10"
+                    value="2"
+                >
+            </label>
+            <label>
+                Charisma
+                <input
+                    class="attr charisma"
+                    type="number"
+                    min="0"
+                    max="10"
+                    value="2"
+                >
+            </label>
+        </section>
+    
+        <footer>
+            <div class='points unused'>
+                <div>
+                    <span>Unused</span>
+                    <span class='counter'>18</span>
+                </div>
+            </div>
+            <div class='points physical'>
+                <div>
+                    <span>Physical</span>
+                    <span class='counter'>6</span>
+                </div>
+            </div>
+            <div class='points mental'>
+                <div>
+                    <span>Mental</span>
+                    <span class='counter'>6</span>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
