@@ -4,7 +4,8 @@
   "description": "An example page for Raven tool.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "netlify": "npm install && rm -rf dist && mkdir dist && rsync -rv * dist --exclude ./dist"
   },
   "author": "",
   "license": "ISC",
